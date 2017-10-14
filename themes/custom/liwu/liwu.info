@@ -1,0 +1,13 @@
+name = Liwu
+description = Thème du site Liwu.ch
+core = 7.x
+ 
+stylesheets[all][] = CSS/style.css
+ 
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
+regions[content] = Content
+regions[hidden] = Hidden
+
+scripts[] = js/tagcanvas.min.js
+scripts[] = liwu.js
